@@ -13,12 +13,19 @@
   You may find the following **advice** useful:
   
     - Programming is the act of recording a process. In our first class, we (you!) executed this recording; in general, however, a computer will execute this process for you. There are two parts to programming: figuring out the process, and coding that process. The act of figuring out the process is the act of combining the primitive components of the environment into the behavior you want. For today's puzzles, that means combining the **vocabulary** of function calls: `up`, `down`, `left`, `right`, `getColor`, `setColor` together with the **grammar** of syntax: variables, `while` loops, `if` statements, blocks, and `function` definitions. You can extend the **vocabulary** by defining your own functions; the **grammar** is fixed by the language.
+
     - We cheated in class today; we used just the command name itself in our code to tell the Rudy to run the command — but in reality the name itself just *refers* to the command, it doesn't *execute* the command. To execute a command, we need parentheses after the command name, like so: `down();`. The parentheses tell Rudy to execute the command with no parameters (*aka* arguments). Also, every command execution needs to end with a semicolon: (`;`) except fir blocks as used in if statements, functions, and while loops. (For command executions within those blocks, yes, semicolons are required.) Other shortcuts: when using a name or variable for the first time, indicate that it's a variable using `var`. See the sidebar for details.
+
     - Remember that code gets run line by line, using the "program counter". As each line is executed, Rudy performs that action. In the Rudy programming environment, lines are highlighted in red as they are executed.
+
     - The movement functions, `up`, `down`, `left`, `right`, cause Rudy to move; the `getColor` function *returns*, that is, when executed, a call to `getColor` *becomes* the color of the current square. The `setColor` function changes the color of the current square to be whatever the command's *parameter (aka argument)* is.
+
     - Creating and using your own functions has two parts: (1) `defining` a function, that is, telling Rudy `how` to perform a new command, and (2) actually `executing` the function.
+
     - There is a distinction between "=", which creates or updates a value stored in memory, and "==", which compares two values for mathematical equality.
+
     - Remember how gates work: if the colors on either side of the gate match, then the gate will open.
+
     - Remember how if statements and while loops work: for if statements, the condition is checked once, and the resulting block is run at most once; for while loops, the condition is checked repeatedly, once at the very beginning, then again after each run through the loop.
   
   If you get stuck the sidebar beneath the puzzle display helpful!
