@@ -2,7 +2,7 @@
 
 This course repository contains homework assignments, useful guides, and code for "Programming & Electronics" at CCA, Fall 2015.
 
-The syllabus for this course is available [in this repository](syllabus.pdf)
+The syllabus for this course is available [in this repository](syllabus.pdf).
 
 ### Week 1: Wednesday, September 2, 2015
 
