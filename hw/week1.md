@@ -8,7 +8,7 @@
     - There's a cheat sheet of syntax on the right, under the puzzle itself.
     - **Assignment: Your solutions to the 8 puzzles should include at least 3 functions of at least 3 lines. (They don't all have to be in the same puzzle)**
     - **Assignment: Use a while loop for puzzles 7 and 8.**
-    - **Assignment: Publish your code on the web, and [send me](mailto:jzamfirescupereira@cca.edu) the link. I recommend using [GitHub](http://github.com); your solution to each puzzle should be in its own file.**
+    - **Assignment: Publish your code on the web, and [send me](mailto:jzamfirescupereira@cca.edu) the link. I recommend using [GitHub](/github-guide.md); your solution to *each puzzle should be in its own file*.**
 
   You may find the following **advice** useful:
   
