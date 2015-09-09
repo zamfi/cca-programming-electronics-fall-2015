@@ -1,6 +1,6 @@
 ### Homework 1 (due Sunday, September 6, 2015)
 
-- Solve the puzzles up to and including level 8 at [Rudy the Red Dot](http://rudy.zamfi.net). Half of are the puzzles we solved together using "pseudocode" in class, but now you will solve them with actual code, in JavaScript. The other half are similar puzzles, with slightly greater complexity, that we did *not* address in class.
+- Solve the puzzles up to and including level 8 at [Rudy the Red Dot](http://rudy.zamfi.net). Half of are the puzzles we solved together using "pseudocode" in class, but now you will solve them with actual code, in JavaScript. The other half are similar puzzles, with slightly greater complexity, that we did *not* solve together in class.
   
   *(The website is running on my computer at home, so it may load a bit slowly. Also, if the <strong>Run</strong> button seems to stop working, reload the page. Please use the Chrome browser.)*
 
@@ -8,7 +8,7 @@
     - There's a cheat sheet of syntax on the right, under the puzzle itself.
     - **Assignment: Your solutions to the 8 puzzles should include at least 3 functions of at least 3 lines. (They don't all have to be in the same puzzle)**
     - **Assignment: Use a while loop for puzzles 7 and 8.**
-    - **Assignment: Publish your code on the web, and [send me](mailto:jzamfirescupereira@cca.edu) the link. I recommend using [GitHub](http://github.com); your solution to each puzzle should be in its own file.**
+    - **Assignment: Publish your code on the web, and [send me](mailto:jzamfirescupereira@cca.edu) the link. I recommend using [GitHub](/github-guide.md); your solution to *each puzzle should be in its own file*.**
 
   You may find the following **advice** useful:
   
