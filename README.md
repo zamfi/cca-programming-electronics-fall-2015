@@ -45,3 +45,24 @@ Videos:
   - [Roomba](https://www.youtube.com/watch?v=0DNkbZvVYvc)
 
 [Homework for Week 1](hw/week1.md)
+
+
+### Week 2: Wednesday, September 9, 2015
+
+Lecture:
+- Homework Review
+
+Lab:
+- Creating sketches with Processing. Write code to create the following sketches in Processing:
+
+1. ![one](img/one.png)
+
+2. ![two](img/two.png)
+
+3. ![three](img/three.png)
+
+4. [![four](img/four.png)](http://www.youtube.com/watch?v=jWNXFlGHuPA)
+
+5. ![five](img/five.png)
+
+6. Look through the [Processing reference](http://processing.org/reference). Pick a function, and use it in a new sketch of your own choosing.
