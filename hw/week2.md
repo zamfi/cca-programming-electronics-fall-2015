@@ -1,8 +1,8 @@
-### Homework 2 (due Wednesday, February 4, 2015)
+### Homework 2 (due Sunday, September 13, 2015)
 
 Programming Practice!
 
-- **Assignment: Pick 5 of the 15 sketches below and recreate them, at least one must be animated.** Bonus points for adding flourishes to your sketches. Include the sketch number and your CCA username in the file name, and email them to me at [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu) by 11am, Wednesday, February 4.
+- **Assignment: Pick 5 of the 15 sketches below and recreate them, at least one must be animated.** Bonus points for adding flourishes to your sketches. Create a new [GitHub repository](../github-guide.md) for this assignment, and create a new file for each of your five sketches -- include the sketch number in the file name. Email a link to your repository to [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu) by Sunday, September 13.
 
 - Not all these sketches are equally difficult -- in fact some are very challenging!
 
