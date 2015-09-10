@@ -10,37 +10,38 @@ This homework has two parts: programming practice due **Sunday**, and a required
   1. In what ways is a class like a cookie cutter?
   2. What sets apart instance variables from regular variables?
   3. In the following code, how many instances are created in total?
-      class Ball {
-        float x, y;
-  
-        Ball(float x, float y) {
-          this.x = x;
-          this.y = y;
-        }
-  
-        void display() {
-          ellipse(x, y, 50, 50);
-        }
-      }
+     ```
+class Ball {
+  float x, y;
+
+  Ball(float x, float y) {
+    this.x = x;
+    this.y = y;
+  }
+
+  void display() {
+    ellipse(x, y, 50, 50);
+  }
+}
 
 
-      Ball b = new Ball(100, 100);
-      Ball b2;
+Ball b = new Ball(100, 100);
+Ball b2;
 
-      void setup() {
-        size(500, 500);
-        b = new Ball(120, 200);
-        b2 = new Ball(35, 35);
-        noStroke();
-      }
+void setup() {
+  size(500, 500);
+  b = new Ball(120, 200);
+  b2 = new Ball(35, 35);
+  noStroke();
+}
 
-      void draw() {
-        background(255);
-        fill(128, 178, 255);
-        b.display();
-        b2.display();
-      }
-  
+void draw() {
+  background(255);
+  fill(128, 178, 255);
+  b.display();
+  b2.display();
+}
+```  
 
 #### Programming Practice ####
 
