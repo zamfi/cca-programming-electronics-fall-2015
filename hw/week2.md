@@ -1,6 +1,6 @@
 ### Homework 2 (due Sunday, September 13, 2015)
 
-This homework has two parts: programming practice due **Sunday**, and a required tutorial to be completed **before Tuesday night**.
+**This homework has two parts:** programming practice due **Sunday**, and a required tutorial to be completed **before Tuesday night**.
 
 #### Classes Tutorial ####
 
