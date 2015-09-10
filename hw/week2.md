@@ -8,8 +8,11 @@ This homework has two parts: programming practice due **Sunday**, and a required
 
 - **Assignment: Email me answers to the following questions to [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu) by Tuesday night:** Send 3-4 sentences per question.
   1. In what ways is a class like a cookie cutter?
+  
   2. What sets apart instance variables from regular variables?
+  
   3. In the following code, how many instances of Ball are created in total?
+
      ```Processing
 class Ball {
   float x, y;
