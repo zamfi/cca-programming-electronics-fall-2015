@@ -28,7 +28,7 @@
 
     - Remember how if statements and while loops work: for if statements, the condition is checked once, and the resulting block is run at most once; for while loops, the condition is checked repeatedly, once at the very beginning, then again after each run through the loop.
   
-  If you get stuck the sidebar beneath the puzzle display helpful!
+  If you get stuck, the sidebar beneath the puzzle display may be helpful!
 
 - If you find yourself struggling with the basic concepts of the code, complete through puzzle 20 at [Hour of Code](http://learn.code.org/hoc/1) -- make sure you click the **Show Code** button after solving each puzzle and that you understand how that code works.
 

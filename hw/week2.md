@@ -1,14 +1,59 @@
 ### Homework 2 (due Sunday, September 13, 2015)
 
-Programming Practice!
+This homework has two parts: programming practice due **Sunday**, and a required tutorial to be completed **before Tuesday night**.
 
-- **Assignment: Pick 5 of the 15 sketches below and recreate them, at least one must be animated.** Bonus points for adding flourishes to your sketches. Create a new [GitHub repository](../github-guide.md) for this assignment, and create a new file for each of your five sketches -- include the sketch number in the file name. Email a link to your repository to [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu) by Sunday, September 13.
+#### Classes Tutorial ####
+
+- **Assignment: Follow the [Processing Objects tutorial](https://processing.org/tutorials/objects).**
+
+- **Assignment: Email me answers to the following questions to [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu) by Tuesday night:** Send 3-4 sentences per question.
+  1. In what ways is a class like a cookie cutter?
+  2. What sets apart instance variables from regular variables?
+  3. In the following code, how many instances are created in total?
+      class Ball {
+        float x, y;
+  
+        Ball(float x, float y) {
+          this.x = x;
+          this.y = y;
+        }
+  
+        void display() {
+          ellipse(x, y, 50, 50);
+        }
+      }
+
+
+      Ball b = new Ball(100, 100);
+      Ball b2;
+
+      void setup() {
+        size(500, 500);
+        b = new Ball(120, 200);
+        b2 = new Ball(35, 35);
+        noStroke();
+      }
+
+      void draw() {
+        background(255);
+        fill(128, 178, 255);
+        b.display();
+        b2.display();
+      }
+  
+
+#### Programming Practice ####
+
+- **Assignment: Pick 5 of the 15 sketches below and recreate them, at least one must be animated.** Bonus points for adding flourishes to your sketches. Create a new [GitHub repository](../github-guide.md#to-create-a-new-repository) for this assignment, and create a new file for each of your five sketches -- include the sketch number in the file name. Email a link to your repository to [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu) by **Sunday, September 13**.
 
 - Not all these sketches are equally difficult -- in fact some are very challenging!
 
-- If you didn't follow all the [Processing tutorials](https://processing.org/tutorials/) last week, then **Assignment: Do so now!**
+- You may find the following [Processing tutorials](https://processing.org/tutorials/) helpful:
+  - The [Processing Overview](https://processing.org/tutorials/overview)
+  - [Coordinate System and Shapes](https://processing.org/tutorials/drawing)
+  - [Color](https://processing.org/tutorials/color)
 
-- It may help to read through the [Processing reference](http://processing.org/reference/) to understand all the various functions available to you.
+- It may also help to read through the [Processing reference](http://processing.org/reference/) to understand all the various functions available to you.
 
 - For extra programming help, consider following the [Khan Academy programming tutorials using Processing](https://www.khanacademy.org/computing/computer-programming/programming).
 
