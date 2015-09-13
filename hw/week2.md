@@ -13,7 +13,7 @@
   
   3. In the following code, how many instances of Ball are created in total?
 
-     ```Processing
+```Processing
 class Ball {
   float x, y;
 
