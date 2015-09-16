@@ -13,7 +13,7 @@
   
   3. In the following code, how many instances of Ball are created in total?
 
-     ```Processing
+```Processing
 class Ball {
   float x, y;
 
@@ -75,7 +75,7 @@ Without further ado, here are the sketches:
    
    ![ball-grid-randoms](img/hw2/ball-grid-randoms.png)
 
-4. Colored circles in a grid, sequential version. Check out the `colorMode` function, and HSB, in the [Processing reference](http://processing.org/reference).
+4. Colored circles in a grid, sequential version. Check out the `colorMode` function, and HSB, in the [Processing reference](http://processing.org/reference). Note that the colors shift from left to right *and* from top to bottom!
 
    ![ball-grid-rainbows](img/hw2/ball-grid-rainbows.png)
 
