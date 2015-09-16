@@ -83,4 +83,4 @@
         ```
     What is the value of `data1[3]`?
     
-  3. When is an array useful? 3-4 sentences, please!
+  3. When is an array useful? Answer in 3-4 sentences, please!
