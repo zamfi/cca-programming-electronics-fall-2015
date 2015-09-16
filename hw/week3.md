@@ -1,4 +1,4 @@
-### Homework 3 (due Wednesday February 11, 2015)
+### Homework 3 (due Sunday, September 20, 2015)
 
 **This homework has two parts:** programming practice due **Sunday**, and a required tutorial to be completed **before Tuesday night**.
 
@@ -10,13 +10,13 @@
     2. Modify the `Ball` class so that every ball has its own color, which is set to a random color in the constructor.
     3. Add a [`mousePressed()`](https://processing.org/reference/mousePressed_.html) function to the code so that, when you click, the ball `b` is repositioned to the mouse position. (Hint: `b.x` and `b.y` will let you get and set the *x* and *y* coordinates of the ball.)
     4. Add a second `Ball` object and call its `draw` and `move` methods (functions) to animate it.
+    5. **Challenge**: 
     
         ```Processing
         class Ball {
           float x, y;
           float vx, vy;
           float radius;
-          color c;
 
           Ball() {
             x = random(width);
@@ -24,7 +24,6 @@
             radius = 10;
             vx = random(3);
             vy = random(2);
-            c = color(random(360), 100, 100);
           }
 
           void draw() {
@@ -58,11 +57,6 @@
 
           b.draw();
           b.move();
-        }
-
-        void mousePressed() {
-          b.x = mouseX;
-          b.y = mouseY;
         }
         ```
 
