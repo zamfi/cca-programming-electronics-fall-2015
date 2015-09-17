@@ -6,10 +6,15 @@
   - Pick two additional sketches from [last week's list of 15](week2.md) and create them in Processing.
   
   - **Assignment**: Beginning with the Ball class code below, modify it in the following ways. Put your final code containing all the changes you've made into a new [GitHub repository](../github-guide.md#to-create-a-new-repository) and send me the link.
+
     1. Modify the `Ball` constructor so that new Ball objects have a random velocity: `vx` and `vy`.
+
     2. Modify the `Ball` class so that every ball has its own color, which is set to a random color in the constructor.
+
     3. Add a [`mousePressed()`](https://processing.org/reference/mousePressed_.html) function to the code so that, when you click, the ball `b` is repositioned to the mouse position. (Hint: `b.x` and `b.y` will let you get and set the *x* and *y* coordinates of the ball.)
+
     4. Add a second `Ball` object and call its `draw` and `move` methods (functions) to animate it.
+
     5. **Optional challenge**: Modify the `Ball` class constructor to take `x` and `y` parameters; after reading the Array tutorial, or, using [`ArrayList`](https://processing.org/reference/ArrayList.html), create an initial grid of `Ball` objects like in homework 2, sketch 4.
 
   ```Processing
@@ -58,7 +63,7 @@
   }
   ```
 
-2. Follow the [Processing Arrays tutorial](https://processing.org/tutorials/arrays/). Email me answers to the following questions to [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu) by **Tuesday night**.
+2. Follow the [Processing Arrays tutorial](https://processing.org/tutorials/arrays/) and read the [ArrayList reference entry](https://processing.org/reference/ArrayList.html). Email me answers to the following questions to [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu) by **Tuesday night**.
   1. When is an array useful? (Answer in 3-4 sentences, please!)
   2. Consider the following code:
     ```Processing
