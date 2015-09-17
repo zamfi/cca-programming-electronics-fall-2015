@@ -61,26 +61,26 @@
 2. Follow the [Processing Arrays tutorial](https://processing.org/tutorials/arrays/). Email me answers to the following questions to [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu) by **Tuesday night**.
   1. When is an array useful? (Answer in 3-4 sentences, please!)
   2. Consider the following code:
-        ```Processing
-        int[] data; // Declare
+    ```Processing
+    int[] data; // Declare
 
-        void setup() {
-          size(100, 100);
-          data = new int[5]; // Create
-          data[0] = 19; // Assign
-          data[1] = 40;
-          data[2] = 75;
-          data[3] = 76;
-          data[4] = 90;
-        }
-        ```
+    void setup() {
+      size(100, 100);
+      data = new int[5]; // Create
+      data[0] = 19; // Assign
+      data[1] = 40;
+      data[2] = 75;
+      data[3] = 76;
+      data[4] = 90;
+    }
+    ```
     How many entries are there in the `data` array?
     
   3. Consider the following code:
-        ```Processing
-        int[] data1 = { 19, 40, 75, 76, 90 };
-        int[] data2 = { 19, 40 };
-        int[] data3 = new int[127];
-        ```
+    ```Processing
+    int[] data1 = { 19, 40, 75, 76, 90 };
+    int[] data2 = { 19, 40 };
+    int[] data3 = new int[127];
+    ```
     What is the value of `data1[3]`?
     
