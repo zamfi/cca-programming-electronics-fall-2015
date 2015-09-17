@@ -2,10 +2,13 @@
 
 **This homework has two parts:** programming practice due **Sunday**, and a required tutorial to be completed **before Tuesday night**.
 
-1. Programming practice:
-  - Pick two additional sketches from [last week's list of 15](week2.md) and create them in Processing.
+1. Programming practice. Create a new [GitHub repository](../github-guide.md#to-create-a-new-repository) and send me the link. Each assignment below should be in its own plain text file with the file extension **.pde**.
+
+  - **Assignment**: Pick two additional sketches from [last week's list of 15](week2.md) and create them in Processing. Put each in a separate file.
   
-  - **Assignment**: Beginning with the Ball class code below, modify it in the following ways. Put your final code containing all the changes you've made into a new [GitHub repository](../github-guide.md#to-create-a-new-repository) and send me the link.
+  - **Assignment**: Pick one sketch you wrote for homework 2 and improve it in some way: cleaner code, less redundancy, etc.
+  
+  - **Assignment**: Beginning with the Ball class code below, modify it in the following ways. Put your final code containing all the changes you've made into your respository. You don't need to have a separate file for each of the items below; one file with your final code is enough.
 
     1. Modify the `Ball` constructor so that new Ball objects have a random velocity: `vx` and `vy`.
 
