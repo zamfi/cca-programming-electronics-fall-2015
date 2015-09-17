@@ -12,51 +12,51 @@
     4. Add a second `Ball` object and call its `draw` and `move` methods (functions) to animate it.
     5. **Optional challenge**: Modify the `Ball` class constructor to take `x` and `y` parameters; after reading the Array tutorial, or, using [`ArrayList`](https://processing.org/reference/ArrayList.html), create an initial grid of `Ball` objects like in homework 2, sketch 4.
 
-        ```Processing
-        class Ball {
-          float x, y;
-          float vx, vy;
-          float radius;
+  ```Processing
+  class Ball {
+    float x, y;
+    float vx, vy;
+    float radius;
 
-          Ball() {
-            x = random(width);
-            y = random(height);
-            radius = 10;
-            vx = 3;
-            vy = 2;
-          }
+    Ball() {
+      x = random(width);
+      y = random(height);
+      radius = 10;
+      vx = 3;
+      vy = 2;
+    }
 
-          void draw() {
-            ellipse(x, y, radius*2, radius*2);
-          }
+    void draw() {
+      ellipse(x, y, radius*2, radius*2);
+    }
 
-          void move() {
-            x = x + vx;
-            y = y + vy;
-            if (x < radius || x > width-radius) {
-              vx = -vx;
-            }
-            if (y < radius || y > height-radius) {
-              vy = -vy;
-            }
-          }
-        }
+    void move() {
+      x = x + vx;
+      y = y + vy;
+      if (x < radius || x > width-radius) {
+        vx = -vx;
+      }
+      if (y < radius || y > height-radius) {
+        vy = -vy;
+      }
+    }
+  }
 
-        Ball b;
+  Ball b;
 
-        void setup() {
-          size(500, 500);
+  void setup() {
+    size(500, 500);
 
-          b = new Ball();
-        }
+    b = new Ball();
+  }
 
-        void draw() {
-          background(255);
+  void draw() {
+    background(255);
 
-          b.draw();
-          b.move();
-        }
-        ```
+    b.draw();
+    b.move();
+  }
+  ```
 
 2. Follow the [Processing Arrays tutorial](https://processing.org/tutorials/arrays/). Email me answers to the following questions to [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu) by **Tuesday night**.
   1. When is an array useful? (Answer in 3-4 sentences, please!)
