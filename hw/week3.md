@@ -65,7 +65,10 @@
 
 2. Follow the [Processing Arrays tutorial](https://processing.org/tutorials/arrays/) and read the [ArrayList reference entry](https://processing.org/reference/ArrayList.html). Email me answers to the following questions to [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu) by **Tuesday night**.
   1. When is an array useful? (Answer in 3-4 sentences, please!)
-  2. Consider the following code:
+  
+  2. What is the difference between an Array and an ArrayList?
+  
+  3. Consider the following code:
     ```Processing
     int[] data; // Declare
 
@@ -81,7 +84,7 @@
     ```
     How many entries are there in the `data` array?
     
-  3. Consider the following code:
+  4. Consider the following code:
     ```Processing
     int[] data1 = { 19, 40, 75, 76, 90 };
     int[] data2 = { 19, 40 };
