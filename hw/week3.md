@@ -10,8 +10,8 @@
     2. Modify the `Ball` class so that every ball has its own color, which is set to a random color in the constructor.
     3. Add a [`mousePressed()`](https://processing.org/reference/mousePressed_.html) function to the code so that, when you click, the ball `b` is repositioned to the mouse position. (Hint: `b.x` and `b.y` will let you get and set the *x* and *y* coordinates of the ball.)
     4. Add a second `Ball` object and call its `draw` and `move` methods (functions) to animate it.
-    5. **Optional challenge**: Modify the `Ball` class constructor to take `x` and `y` parameters; using [`ArrayList`](https://processing.org/reference/ArrayList.html), create an initial grid of `Ball` objects like in homework 2, sketch 4.
-    
+    5. **Optional challenge**: Modify the `Ball` class constructor to take `x` and `y` parameters; after reading the Array tutorial, or, using [`ArrayList`](https://processing.org/reference/ArrayList.html), create an initial grid of `Ball` objects like in homework 2, sketch 4.
+  
         ```Processing
         class Ball {
           float x, y;
@@ -59,7 +59,8 @@
         ```
 
 2. Follow the [Processing Arrays tutorial](https://processing.org/tutorials/arrays/). Email me answers to the following questions to [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu) by **Tuesday night**.
-  1. Consider the following code:
+  1. When is an array useful? (Answer in 3-4 sentences, please!)
+  2. Consider the following code:
         ```Processing
         int[] data; // Declare
 
@@ -75,7 +76,7 @@
         ```
     How many entries are there in the `data` array?
     
-  2. Consider the following code:
+  3. Consider the following code:
         ```Processing
         int[] data1 = { 19, 40, 75, 76, 90 };
         int[] data2 = { 19, 40 };
@@ -83,4 +84,3 @@
         ```
     What is the value of `data1[3]`?
     
-  3. When is an array useful? Answer in 3-4 sentences, please!
