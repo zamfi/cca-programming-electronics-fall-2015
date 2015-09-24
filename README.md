@@ -93,11 +93,22 @@ Try it in the homework!
 
 Lecture:
 - Homework Review: classes
-- Arrays
-
-Labs:
 - Tools for writing code
-- Debugging
+- Arrays and ArrayLists
+
+In today's session, we looked at how you can use an `ArrayList` object to store large numbers of objects. Here's a graphic showing how we went from two `Ball` objects to 529 `Ball` objects in a grid:
+
+![bouncing balls with or without arraylists](img/enlisting-balls.png)
+
+In the diagram above, the blue boxes highlight the changes we made. (Note that the `Ball` class itself hasn't changed! What's changed is how the code keeps track of the `Ball` instances we create.) 
+
+In the traditional code, each ball needs a new variable (`b1` or `b2`, for example). To display 529 `Ball` objects in a grid in the traditional way would require creating 529 `Ball`-type variables -- what a nightmare! Instead, the code creates a new object of type `ArrayList<Ball>`, called `list`, that it'll use to keep track of the 529 `Ball` objects.
+  
+You can think of an `ArrayList` as a new type of variable that can hold many other variables of the same type. For example, `ArrayList<Ball>` holds `Ball` objects, but `ArrayList<Particle>` would only hold `Particle` objects. If you haven't yet, take a look at the [Processing.org ArrayList reference](https://processing.org/reference/ArrayList.html).
+  
+The rest of the code interacts with the `ArrayList` object in two ways. First, it uses the `add` function to add `Ball` objects to the list inside of `setup`. Then it picks out those objects using from the `list` using the `get` function to draw and move them. In `setup`, two `for` loops give each `Ball` object its own `x` and `y` position in the grid of balls. In `draw`, a single `for` loop to `draw()` and `move()` each ball.
+
+Lab: 
 
 Write code to create the following sketches in Processing:
 
@@ -108,5 +119,6 @@ Write code to create the following sketches in Processing:
 2. A grid of bouncing circles
    
    [![two](http://img.youtube.com/vi/Ida7ntOWq28/maxresdefault.jpg)](https://youtu.be/Ida7ntOWq28)
+   
 
-
+[Homework for Week 4](hw/week4.md)
