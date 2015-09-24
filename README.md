@@ -89,7 +89,7 @@ Try it in the homework!
 
 [Homework for Week 3](hw/week3.md)
 
-### Week 4: Wednesday, September 22, 2015
+### Week 4: Wednesday, September 23, 2015
 
 Lecture:
 - Homework Review: classes
@@ -101,10 +101,12 @@ Labs:
 
 Write code to create the following sketches in Processing:
 
-1. [![one](http://img.youtube.com/vi/35Ohe-EO1Ko/maxresdefault.jpg)](https://youtu.be/35Ohe-EO1Ko)
+1. Animated circle drawing
+   
+   [![one](http://img.youtube.com/vi/35Ohe-EO1Ko/maxresdefault.jpg)](https://youtu.be/35Ohe-EO1Ko)
 
-2. [![two](http://img.youtube.com/vi/Ida7ntOWq28/maxresdefault.jpg)](https://youtu.be/Ida7ntOWq28)
-
-3. **Challenge**: Create a Pong game in Processing!
+2. A grid of bouncing circles
+   
+   [![two](http://img.youtube.com/vi/Ida7ntOWq28/maxresdefault.jpg)](https://youtu.be/Ida7ntOWq28)
 
 
