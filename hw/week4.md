@@ -1,4 +1,4 @@
-### Homework 3 (due Sunday, September 20, 2015)
+### Homework 4 (due Sunday, September 27, 2015)
 
 **This homework is just two programming practice sections, both due Sunday.**
 
