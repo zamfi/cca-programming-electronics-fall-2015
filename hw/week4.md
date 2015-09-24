@@ -71,6 +71,7 @@ void draw() {
 We've already got a `Ball` class, but we also need "paddles" for the players to control that the balls will bounce from. Write a `Paddle` class that’s a template for a paddle, just like the `Ball` class is a template for a ball.
 
 The class will be very similar to Ball, but there are a few key differences:
+
 1. Paddles are shaped as a rectangle instead of a circle
 2. Paddles only move up and down, that is, veritcally -- there's no horizontal motion
 
