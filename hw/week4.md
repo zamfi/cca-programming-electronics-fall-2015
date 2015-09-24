@@ -1,6 +1,6 @@
 ### Homework 3 (due Sunday, September 20, 2015)
 
-**This homework is just two programming practice sections, both due Sunday**
+**This homework is just two programming practice sections, both due Sunday.**
 
 
 **Assignment 1**: Take the following code we worked on in class, that produces a grid of randomly-colorand Balls. Modify it so that the colors in the grid are a rainbow, like in the [in-class assignment](https://youtu.be/Ida7ntOWq28). One possible set of modifications:
@@ -74,8 +74,8 @@ The class will be very similar to Ball, but there are a few key differences:
 1. Paddles are shaped as a rectangle instead of a circle
 2. Paddles only move up and down, that is, veritcally -- there's no horizontal motion
 
-Create two paddle instances, one at each side of the canvas; they should bounce up and down.
+Create two paddle instances, one at each side of the canvas, a paddle's width away from the edge; they should bounce up and down.
 
-Submit a single file with a `Ball` and `Paddle` class in it, that has one or more bouncing balls and two bouncing paddles.
+Submit a single processing file with a `Ball` and `Paddle` class in it, that has one or more bouncing balls and two bouncing paddles.
 
 Here’s [one way your sketch might look when run](https://youtu.be/x5nrypf_nbc).
