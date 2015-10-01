@@ -10,7 +10,7 @@
 
 2. Add two more paddles: one each at the top and the bottom of the game board to create four-player pong! Add new keys to control them. (![hard](../img/hard.png) ![hard](../img/hard.png))
 
-3. Increase the speed of the ball on every bounce from a paddle. (![hard](../img/hard.png)
+3. Increase the speed of the ball on every bounce from a paddle. (![hard](../img/hard.png))
 
 4. Make the paddles ellipses instad of rectangles, and make the balls bounce off them in a mathematically accurate way. (![hard](../img/hard.png) ![hard](../img/hard.png) ![hard](../img/hard.png) ![hard](../img/hard.png) ![hard](../img/hard.png))
 
@@ -24,7 +24,7 @@
 
 As usual, make a new repository and place your code (with the `.pde` extension!) in it
 
-(Hardness Icon -- ![hard](../img/hard.png) -- by AhaSoft)
+(Hardness Icon ![hard](../img/hard.png) by AhaSoft)
 
 #### Arduino & Electronics Tutorials (due Tuesday, October 6, 2015)
 
