@@ -3,7 +3,7 @@
 **This homework is just two programming practice sections, both due Sunday.**
 
 
-**Assignment 1**: Take the following code we worked on in class, that produces a grid of randomly-colorand Balls. Modify it so that the colors in the grid are a rainbow, like in the [in-class assignment](https://youtu.be/Ida7ntOWq28). One possible set of modifications:
+**Assignment 1**: Take the following code we worked on in class, that produces a grid of randomly-colored Balls. Modify it so that the colors in the grid are a rainbow, like in the [in-class assignment](https://youtu.be/Ida7ntOWq28). One possible set of modifications:
 
 - Add a parameter `color c` to the `Ball` constructor function, and set `this.c` equal to that parameter.
 - Modify `setup` to add a `hue` variable that increases with every ball created.
