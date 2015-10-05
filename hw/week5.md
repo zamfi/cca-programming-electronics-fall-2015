@@ -4,7 +4,7 @@
 
 #### Programming Practice (due Sunday, October 4, 2015)
 
-**Assignment 1**: Starting from the Pong code in the Week 5 section of the [course repository](../), choose two of the following changes to make:
+**Assignment 1**: Starting from the Pong code in the Week 5 section of the [course repository](../README.md), choose two of the following changes to make:
 
 1. Add a sound that plays when the ball bounces off a paddle, and another sound that plays when a player scores a point. The [SoundFile reference](https://processing.org/reference/libraries/sound/SoundFile.html) may be helpful! ![hard](../img/hard.png) ![hard](../img/hard.png) ![hard](../img/hard.png)
 
