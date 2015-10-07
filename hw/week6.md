@@ -59,7 +59,6 @@
     ```processing
     final int GRID_SIZE = 10;
     final float GRID_PADDING = 50;
-    final int CANVAS_SIZE = 500;
     final float FRACTION_PER_FRAME = .25;
     final int MAX_HISTORY_POINTS = 40;
 
@@ -72,7 +71,7 @@
     ArrayList<PVector> historyPoints;
 
     void setup() {
-      size(CANVAS_SIZE, CANVAS_SIZE);
+      size(500, 500);
 
       newX = floor(random(GRID_SIZE));
       newY = floor(random(GRID_SIZE));
@@ -98,7 +97,7 @@
     }
 
     float gridToCoordinates(float input) {
-      return GRID_PADDING+input*(CANVAS_SIZE - 2*GRID_PADDING)/(GRID_SIZE-1);
+      return GRID_PADDING+input*(500 - 2*GRID_PADDING)/(GRID_SIZE-1);
     }
 
     void drawHistory() {

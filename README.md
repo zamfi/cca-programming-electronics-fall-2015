@@ -305,8 +305,15 @@ Extend this code in the homework!
 [Homework for Week 5](hw/week5.md)
 
 
+### Week 6: Wednesday, October 7, 2015
 
+Lecture:
+- Arduino introduction (slides available in [pdf](arduino-slides.pdf))
 
+Lab:
+- Building circuits with Arduino and other electronic components!
+
+[Homework for Week 6](hw/week6.md)
 
 
 
