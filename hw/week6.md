@@ -4,7 +4,7 @@
 
 #### Arduino Lab
 
-- **Assignment:** Complete this lab: http://workshopweekend.net/arduino/labs/exploring-signals on the other half of your breadboard.
+- **Assignment:** Complete the [Exploring Signals lab](http://workshopweekend.net/arduino/labs/exploring-signals) on half of your breadboard.
   
   You'll need extra parts for this lab: LEDs, wires, a light-dependent resistor (LDR), and a 10K resistor, all of which you can get from the Hybrid Lab. (If you can, do this assignment at the Hybrid Lab!)
   
