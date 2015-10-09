@@ -4,9 +4,9 @@
 
 #### Arduino Lab
 
-- **Assignment:** Complete the [Exploring Signals lab](http://workshopweekend.net/arduino/labs/exploring-signals) on half of your breadboard.
+- **Assignment:** Complete the [Exploring Signals lab](http://workshopweekend.net/arduino/labs/exploring-signals). There are two parts; complete each part on "half" of your breadboard. The images all show a half size breadboard -- your breadboard is full size: two half size breadboards stuck together! No need to do the challenges, but you are free to if you like.
   
-  You'll need extra parts for this lab: LEDs, wires, a light-dependent resistor (LDR), and a 10K resistor, all of which you can get from the Hybrid Lab. (If you can, do this assignment at the Hybrid Lab!)
+  You'll need extra parts for this lab: LEDs, wires, two light-dependent resistors (LDR), and two 10K resistors, all of which you can get from the Hybrid Lab. (If you can, do this assignment at the Hybrid Lab!)
   
   **Upload your final code to GitHub and email a link to [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu). Bring your breadboard with your completed project to Wednesday's class.**
 
