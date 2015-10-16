@@ -479,7 +479,7 @@ Lab:
     
     6. **Challenge**: Also graph the value of the first coordinate!
 
-
+[Homework for Week 7](hw/week7.md)
 
 
 
