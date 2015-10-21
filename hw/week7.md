@@ -1,6 +1,6 @@
 ### Homework 7
 
-**This homework is one programming practice due Sunday, and one electronics assignment due Tuesday.**
+**This homework is one programming practice due Sunday, and two electronics assignments due Tuesday.**
 
 #### Programming Practice (due Sunday, October 18, 2015)
 
