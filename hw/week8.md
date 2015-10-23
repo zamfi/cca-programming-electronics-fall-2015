@@ -2,6 +2,8 @@
 
 1. Print out and complete the [practice quiz](practice-quiz.pdf). Give yourself 2 hours, don't use your computer, and use whatever notes you plan to bring to the midterm on November 4.
    
+   For the last problem, draw little a resistor and LED next to the breadboard, and wires showing where you would connect their legs to the breadboard.
+   
    Scan (or photograph with your cell phone) your completed practice quiz and email it to me at [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu) by **Sunday night, 11:59pm on October 25**.
 
 2. Learn about motors and answer the following questions. Email your answers to me at [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu) by **Tuesday, October 27**.
