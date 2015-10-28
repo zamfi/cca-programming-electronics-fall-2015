@@ -482,7 +482,19 @@ Lab:
 [Homework for Week 7](hw/week7.md)
 
 
-### Week 8: Wednesday, October 28, 2015
+### Week 8: Wednesday, October 21, 2015
+
+Lecture:
+- Homework review
+- More electronics
+
+Lab:
+- Continuiation of last week's lab; pong with potentiometers.
+
+[Homework for Week 8](hw/week8.md)
+
+
+### Week 9: Wednesday, October 28, 2015
 
 Lecture:
 -  Practice Quiz review
@@ -526,11 +538,4 @@ Lab:
 13. Add a potentiometer to your sketch -- when rotated one way, the motor should spin in one direction, when rotated the other way, the motor should spin in the other direction. In the middle range, the motor shouldn't spin at all. (What code can you write to stop the motor?)
 
 14. Add a second motor, connect it to the other half of the integrated circuit.
-
-
-
-
-
-
-
 
