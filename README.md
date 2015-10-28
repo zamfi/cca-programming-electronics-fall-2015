@@ -482,7 +482,50 @@ Lab:
 [Homework for Week 7](hw/week7.md)
 
 
+### Week 8: Wednesday, October 28, 2015
 
+Lecture:
+-  Practice Quiz review
+-  Motors, transistors, and motor drivers.
+
+Lab:
+-  Experiments with motors!
+   
+1. Build the following circuits, one at a time, and observe what happens. Pay particular attention to the speed and strength of the motors. (For the latter two schematics, use the blink sketch or write your own.)
+  
+   ![Motor Circuits](img/motor-experiments.png)
+
+2. In the third schematic above, you're using the transistor as a digital switch. As we discussed, you can control a motor using 4 switches in this configuration, called an H-Bridge:
+  
+   ![H-bridge](img/h-bridge.png)
+
+3. Using switches `S1`, `S2`, `S3`, and `S4`, figure out how to open or close each switch to cause current to flow from left to right through the motor (spinning it "forward") and from right to left through the motor (spinning it "backward"). Make a handy table.
+
+4. Note that your table never has switches `S1` and `S3` both closed or `S2` and `S4` both closed -- why?
+
+5. That means that the circuit we want is effectively this:
+
+   ![Two switches](img/single-motor-circuit.png)
+  
+6. This schematic merges `S1` and `S3` into a single switch on the left, and `S2` and `S4` into a single switch on the right. For each switch, there are now three positions: up, down, or "off" (that is, not connected to anything). 
+
+7. This circuit is created for us in the form of a "Half-H Bridge" integrated circuit. We'll use the [SN7544](http://www.ti.com/lit/ds/symlink/sn754410.pdf) in class -- but there are many others (like the [L293D](http://www.ti.com/lit/ds/symlink/l293d.pdf)), with the main difference being voltage and current ratings. Here's what it looks like. Note the position of the notch.
+  
+   ![Quad H-bridge](img/quad-h-bridge-chip.png)
+  
+8. The inputs to the chip are the pins labeled with `A`, e.g., `1A`, `2A`, etc. The corresponding outputs (that you connect to your motor) are the pins labeled with `Y`, e.g., `1Y`, `2Y`. Send a high voltage on the input pin, and the output pin will be connected to a high voltage -- and similarly with low voltage.
+
+9. Wire up your motor to one side of the H-bridge.
+
+10. Write a function in Arduino, `void forward()`, that spins the motor forward, using pins connected to `1A` and `2A`
+
+11. Write an analogous function, `void reverse()`, for the reverse.
+
+12. Write an Arduino sketch that uses your two functions to spin the motor forward for 2 seconds, waits for 1 second, then reverses for 1 second.
+
+13. Add a potentiometer to your sketch -- when rotated one way, the motor should spin in one direction, when rotated the other way, the motor should spin in the other direction. In the middle range, the motor shouldn't spin at all. (What code can you write to stop the motor?)
+
+14. Add a second motor, connect it to the other half of the integrated circuit.
 
 
 
