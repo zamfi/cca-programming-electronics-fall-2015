@@ -539,3 +539,4 @@ Lab:
 
 14. Add a second motor, connect it to the other half of the integrated circuit.
 
+[Homework for Week 9](hw/week9.md)
