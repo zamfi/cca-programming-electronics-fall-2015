@@ -1,6 +1,6 @@
 ### Homework 9 (due Sunday, November 1, 2015)
 
-1. Final Project thoughts, due *Sunday*.
+1. Final Project thoughts, due **Sunday**.
 
 - Your final project will take up the bulk of your classwork for the rest of term. Think about what you'd like to do, and [send me](mailto:jzamfirescpereira@cca.edu) a 5-10 sentence description of what you'd like to do by **Sunday night, November 1**. Here are some thoughts:
 
