@@ -131,7 +131,7 @@ This assignment has two parts: programming practice, due Sunday, and a project p
   }
   ```
   
-  1. Find the line of the code where the each handle's color is set, and modify it so that the color depends in some way on the value of the handle. Bonus points for HSB.
+  1. Find the line of the code where the each handle's color is set, and modify it so that the color depends in some way on the value of the handle. Bonus points for HSB. (In what variable is the position of each handle stored?)
   2. **Optional challenge:** Draw a rectangle that covers the black area to the left of each handle, in the same color as the color of the handle (as modified in part 1).
 
 - Write a proposal for your final project, and **[send me a link](mailto:jzamfirescupereira@cca.edu) by Tuesday at noon**.
