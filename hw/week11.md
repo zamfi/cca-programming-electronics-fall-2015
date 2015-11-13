@@ -16,7 +16,7 @@ Project Homework:
   
   **The debug log is especially useful now, as you experiment with the pieces that will eventually make up your final project.**
   
-  **Create a `debug-log.md` file in your final project repository, and keep your notes in there. [Send me a link to your file ](mailto:jzamfirescupereira@cca.edu) (it should have a record of what you've done so far!) by Monday night, 11pm**.
+  **Create a `debug-log.md` file in your final project repository, and keep your notes in there. [Send me a link to your file](mailto:jzamfirescupereira@cca.edu) (it should have a record of what you've done so far!) by Monday night, 11pm**.
   
 - Draft a "Bill of Materials" for your project: this is a list of the components you'll need to build your project. Each entry in the list should include a description, and a "source": where you'll get the part -- a link if you plan to buy it, or "Hybrid Lab" if the lab has one you plan to use, but please confirm in the lab that the part is available! 
   
