@@ -12,7 +12,7 @@ Project Homework:
   3. Formulate a hypothesis about what might be causing the mismatch: what part of your code or what part of your circuit is behaving in a way you don't expect?
   4. Test your hypothesis: what action can you take you determine if your hypothesis is true?
   5. What is the result of your test?
-  6. Repeat steps iii-iv above until you resolve your "bug".
+  6. Repeat steps iii-v above until you resolve your "bug".
   
   This is a serious bit of work, but it will help you develop very critical skills in debugging; if there is only one valuable thing you take from this class, it will be this ability. Don't skimp on it!
   
