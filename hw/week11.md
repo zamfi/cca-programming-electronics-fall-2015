@@ -1,5 +1,7 @@
 ### Homework 11 (due Monday, November 16, 11pm)
 
+This homework assignment is all project-related.
+
 Project Homework:
 - Start your final project's **debug log**.
   
